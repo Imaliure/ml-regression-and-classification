@@ -27,7 +27,7 @@ from lightgbm import LGBMRegressor
 from catboost import CatBoostRegressor
 
 
-df = pd.read_csv("Data\Hitters.csv")
+df = pd.read_csv("..\Data\Hitters.csv")
 
 # List of models to test
 models = [

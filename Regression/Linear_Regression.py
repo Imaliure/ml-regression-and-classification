@@ -42,7 +42,7 @@ from sklearn.metrics import mean_squared_error
 # ================================
 # Load Dataset
 # ================================
-df = pd.read_csv("Data/Advertising.csv")
+df = pd.read_csv("..\Data\Advertising.csv")
 
 # Display first few rows of the data
 df.head()

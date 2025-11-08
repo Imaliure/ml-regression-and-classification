@@ -38,7 +38,7 @@ filterwarnings("ignore")
 # ================================
 # Load and Prepare Dataset
 # ================================
-df = pd.read_csv("Data\Hitters.csv")
+df = pd.read_csv("..\Data\Hitters.csv")
 df.info()
 
 # Fill missing Salary values

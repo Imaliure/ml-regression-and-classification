@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 # ================================
 # Load Dataset
 # ================================
-df = pd.read_csv("Data\Hitters.csv")
+df = pd.read_csv("..\Data\Hitters.csv")
 df.info()
 
 # Handling missing values in the target variable

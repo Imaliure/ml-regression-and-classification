@@ -33,7 +33,7 @@ from catboost import CatBoostRegressor
 # ================================
 # Load Dataset
 # ================================
-df = pd.read_csv("Data\Hitters.csv")
+df = pd.read_csv("..\Data\Hitters.csv")
 df.info()
 
 # Handle missing values
