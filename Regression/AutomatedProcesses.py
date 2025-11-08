@@ -77,4 +77,5 @@ def compML(df, target, alg_list=models):
     return results_df
 
 # Run and display results
-compML(df, "Salary")
+results_df = compML(df, "Salary")
+
